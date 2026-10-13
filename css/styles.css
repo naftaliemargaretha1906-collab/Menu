@@ -1,0 +1,133 @@
+/* Custom Modern & Boxed Styling */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f1f5f9;
+  color: #334155;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styling */
+.custom-navbar {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  border: none;
+  border-radius: 0;
+  margin-bottom: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.custom-navbar .navbar-brand {
+  color: #ffffff !important;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.custom-navbar .navbar-toggle {
+  border-color: #475569;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.custom-navbar .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.custom-navbar .navbar-toggle:hover,
+.custom-navbar .navbar-toggle:focus {
+  background-color: #334155;
+}
+
+/* Mobile Dropdown Styling */
+#collapsable-nav {
+  background-color: #1e293b;
+  border-top: 1px solid #334155;
+  padding: 0;
+}
+
+#collapsable-nav ul {
+  margin: 0;
+}
+
+#collapsable-nav ul li a {
+  color: #e2e8f0;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 14px 0;
+  border-bottom: 1px solid #334155;
+  transition: all 0.2s ease-in-out;
+}
+
+#collapsable-nav ul li a:hover {
+  background-color: #334155;
+  color: #38bdf8;
+}
+
+/* Page Heading */
+.content-container {
+  padding-bottom: 40px;
+}
+
+#main-heading {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-weight: 700;
+  font-size: 32px;
+  color: #0f172a;
+  letter-spacing: -0.5px;
+}
+
+/* Kotak Konten (Box) yang Jelas & Modern */
+.section-box {
+  background-color: #ffffff !important; /* Latar belakang putih bersih */
+  border: 2px solid #cbd5e1 !important;  /* Garis tepi kotak jelas */
+  border-radius: 12px;                  /* Sudut tumpul modern */
+  padding: 25px;
+  margin-bottom: 30px;
+  min-height: 750px;                    /* Tetap tinggi murni buat syarat scroll */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06); /* Bayangan halus */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.section-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-color: #3b82f6 !important;     /* Garis berubah biru pas di-hover */
+}
+
+/* Judul Dalam Kotak */
+.section-box h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #1e293b;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #f1f5f9;     /* Garis pembatas di bawah judul */
+}
+
+.section-box p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #475569;
+  text-align: justify;
+}
+
+/* Back to Top Button (Mobile Only) */
+.back-to-top {
+  display: block;
+  margin-top: 25px;
+  padding: 10px;
+  background-color: #f1f5f9;
+  color: #2563eb;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: background-color 0.2s ease;
+}
+
+.back-to-top:hover {
+  background-color: #e2e8f0;
+  color: #1d4ed8;
+}
